@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a história e evolução dos consoles PlayStation, Xbox e Nintendo, os três gigantes da indústria de videogames.">
+    <title>A origem dos games</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>A Origem dos Três Grandes nomes dos Games</h1>
+        <h3 class="subtitulo">Descubra um pouco sobre cada marca dos atuais videogames</h3>
+
+        <button class="hamburger-menu" aria-label="Abrir menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#introducao"><i class="fas fa-house"></i> Início</a></li>
+                <li><a href="#consoles"><i class="fas fa-gamepad"></i> Consoles</a></li>
+                <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introducao" class="conteudo-principal">
+            <h2>Uma breve introdução!</h2>
+            <p>
+                Explore conosco o fascinante universo dos videogames, onde a paixão e a tecnologia se encontram. De simples pixels a mundos vastos e imersivos, os jogos eletrônicos transcenderam o mero entretenimento para se tornarem uma força cultural e econômica global.
+            </p>
+            <p>
+                Neste espaço, vamos mergulhar profundamente nas histórias, inovações revolucionárias e nos legados duradouros das três gigantes que moldaram a indústria: PlayStation, Xbox e Nintendo.
+            </p>
+            <p>
+                Descubra como cada uma dessas marcas não apenas impulsionou avanços tecnológicos, mas também criou experiências inesquecíveis que marcaram gerações, construíram comunidades vibrantes e continuam a definir o futuro do lazer digital. Prepare-se para uma jornada cheia de nostalgia, curiosidades e tudo o que você precisa saber sobre suas plataformas favoritas e o impacto transformador que elas tiveram no mundo dos games!
+            </p>
+            <div class="gif-container">
+                <img src="img/mario.gif" alt="Um GIF do mario" class="intro-gif">
+            </div>
+        </section>
+
+        <h2>O Trio Lendário dos Games</h2>
+        <h2>Clique e descubra:</h2>
+
+        <section id="consoles" class="cards-container">
+            <div class="card hidden-fade" id="playstation-card">
+                <a href="playstation.html">
+                    <div class="card-content">
+                        <img src="img/playstation_logo.png" alt="logo do playstation">
+                        <h4>Playstation</h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card hidden-fade" id="xbox-card">
+                <a href="xbox.html">
+                    <div class="card-content">
+                        <img src="img/xbox_logo.png" alt="logo do xbox">
+                        <h4>Xbox</h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card hidden-fade" id="nintendo-card">
+                <a href="nintendo.html">
+                    <div class="card-content">
+                        <img src="img/nintendo_logo.png" alt="logo do Nintendo">
+                        <h4>Nintendo</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato-link-footer">
+        <p>&copy; 2025 Vinicius / Eng. de Software. Sem fins lucrativos.</p>
+        <div class="social-icons">
+            <a href="https://x.com/Viniiiciusssss" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/viniiiciusssss___/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/TheTurnipHead" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#politica-privacidade">Política de Privacidade</a> |
+            <a href="#termos-uso">Termos de Uso</a>
+            <a href="#" id="openContactModal">Contato</a>
+        </div>
+
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Fale Conosco!</h2>
+                <p>Tem alguma pergunta, sugestão ou feedback? Entre em contato conosco preenchendo o formulário abaixo.</p>
+
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+
+        <button id="scroll-to-top" aria-label="Voltar ao topo">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
