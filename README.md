@@ -54,6 +54,6 @@ Este projeto é desenvolvido para fins acadêmicos e educacionais. Sem fins lucr
 
 ## 📧 Contato
 
-* **Vinicius:**  
+* **Vinicius:**  https://www.instagram.com/viniiiciusssss___/
 
 ---
