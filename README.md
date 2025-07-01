@@ -33,8 +33,8 @@ Este site oferece uma jornada informativa através do tempo, detalhando a origem
 
 O site está hospedado e acessível nas seguintes plataformas:
 
-* **GitHub Pages:** `[Seu link para o GitHub Pages]`
-* **Vercel:** `[Seu link para o Vercel]`
+* **GitHub Pages:** https://theturniphead.github.io/Projeto-Origem-dos-Games/
+* **Vercel:** https://projeto-origem-dos-games.vercel.app/
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -54,6 +54,6 @@ Este projeto é desenvolvido para fins acadêmicos e educacionais. Sem fins lucr
 
 ## 📧 Contato
 
-* **Vinicius:**
+* **Vinicius:**  
 
 ---
