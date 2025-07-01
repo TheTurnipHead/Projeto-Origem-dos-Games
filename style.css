@@ -687,7 +687,7 @@ footer p {
 * -------------------------------------------------------------
 */
 .theme-playstation {
-    background-image: url('/img/playstationdoodle.jpg');
+    background-image: url('./img/playstationdoodle.jpg');
     background-repeat: repeat;
     background-size: 250px;
     color: #000000;
@@ -721,7 +721,7 @@ footer p {
 }
 
 .theme-xbox {
-    background-image: url('/img/xboxdoodle.jpg');
+    background-image: url('./img/xboxdoodle.jpg');
     background-repeat: repeat;
     background-size: 250px;
     color: #000000;
@@ -755,7 +755,7 @@ footer p {
 }
 
 .theme-nintendo {
-    background-image: url('/img/nintendodoodle.jpg');
+    background-image: url('./img/nintendodoodle.jpg');
     background-repeat: repeat;
     background-size: 250px;
     color: #000000;
